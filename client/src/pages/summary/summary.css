@@ -1,0 +1,146 @@
+.summary{
+    margin-bottom: 50px;
+}
+
+.navbar{
+    height: 120px;
+    background-color: #29166F;
+    position: relative;
+    z-index: 0;
+}
+
+.wrapper-item{
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -80px;
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+.logo-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-div{
+    margin-top: 80px;
+}
+
+.info-col{
+    border-right: 1px solid #E5E7EB;
+}
+
+.menu.active{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E5E7EB;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.menu:hover{
+    background-color: #E5E7EB;
+}
+
+.menu > img{
+    width: 20px;
+}
+
+.menu > span{
+    font-size: 14px;
+}
+
+.p-Info{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.p-infoDiv{
+    height: auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.personal-div{
+    padding: 5px 0;
+    height: 150px;
+    border-bottom: 1px solid #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.p-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.passport-div > img{
+    width: 120px;
+}
+
+.d-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.user-details.hidden{
+    visibility: hidden;
+}
+
+.user-details :nth-child(2){
+    font-weight: bold;
+}
+
+.eduDiv{
+    height: auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.eduDiv > p{
+    font-weight: bold;
+}
+
+.continue-btn{
+    margin-top: 50px;
+}
+
+.continue-btn > button{
+    background-color: #DC2626 !important;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 25px;
+}

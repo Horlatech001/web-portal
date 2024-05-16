@@ -1,0 +1,111 @@
+.passport{
+    margin-bottom: 50px;
+}
+
+.navbar{
+    height: 120px;
+    background-color: #29166F;
+    position: relative;
+    z-index: 0;
+}
+
+.wrapper-item{
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -80px;
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+.logo-div{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info-div{
+    margin-top: 80px;
+}
+
+.info-col{
+    border-right: 1px solid #E5E7EB;
+}
+
+.menu.active{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #E5E7EB;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.menu:hover{
+    background-color: #E5E7EB;
+}
+
+.menu > img{
+    width: 20px;
+}
+
+.menu > span{
+    font-size: 14px;
+}
+
+.p-header{
+    width: 50%;
+}
+
+.p-header :nth-child(3){
+    color: blue;
+}
+
+.file-input{
+    border: 1px solid #6B7280;
+    width: 200px;
+    height: 200px;
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.continue-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.continue-btn > p{
+    font-weight: bold;
+    color: #6B7280;
+    font-size: 18px;
+}
+
+.continue-btn > button{
+    background-color: #DC2626 !important;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 25px;
+}
